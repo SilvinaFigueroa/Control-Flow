@@ -54,7 +54,7 @@ switch (week) {
             and space remaning ${spaceReminder} and percentage ${percReminder}%.`);
         break;
 
-    case (percReminder < 50){
+    case (percReminder < 50):
 
         console.log(`PLANT!`);
         console.log(`Week ${week} - The area used for ${plantGrow + initCountPlant} plants is ${plantedArea} 
@@ -63,10 +63,5 @@ switch (week) {
 
     }
 
-
-
-
-
-}
 
 
